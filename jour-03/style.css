@@ -1,0 +1,49 @@
+/* Style pour le plateau de jeu */
+.row {
+    display: flex;
+}
+
+.case {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    margin: 5px;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+/* Style pour le message et le tour */
+#message {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#turn {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Style pour le bouton de jeu */
+#play {
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style pour le message de victoire ou d'égalité */
+.message-win {
+    color: green;
+    font-weight: bold;
+}
+
+.message-draw {
+    color: orange;
+    font-weight: bold;
+}
+
